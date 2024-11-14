@@ -1,0 +1,505 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #000000;
+}
+
+/* ///////////////first section //////////////// */
+.first-section {
+    padding-top: 125px;
+}
+
+.inner-bg-img {
+    position: relative;
+}
+
+.inner-bg-img img {
+    position: absolute;
+    right: 0;
+}
+
+.section-first-content {
+    position: relative;
+    padding-left: 65px;
+    /* position: absolute; */
+    margin-top: 65px;
+}
+
+.first-section-mini-heading-wrap {
+    display: flex;
+    gap: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3663D8;
+}
+
+.create-heading {
+    font-family: "Russo One", sans-serif;
+    font-size: 140px;
+    color: #fff;
+}
+
+.collective-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.collective-content p {
+    color: #fff;
+    width: 30%;
+}
+
+.collective-content .collective-head {
+    width: 70%;
+}
+
+.Collective-child {
+    font-size: 18px;
+
+}
+
+.collective-content-wrapper {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 30px;
+}
+
+.collective-content-wrapper p {
+    color: #D4D6D7;
+    width: 40%;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.get-quote-wrapper {
+    margin-top: 95px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 150px;
+}
+
+.circle-wrapper {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.circle-wrapper2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    transition: 0.2s ease;
+    margin-left: 15px;
+}
+
+.circle-wrapper:hover {
+    border: 1px solid #4577E1;
+}
+
+.circle-wrapper:hover .circle-wrapper2 {
+    border: 1px solid #4577E1;
+}
+
+.circle-wrapper:hover .get-quote-heading {
+    color: #4577E1;
+}
+
+.circle-wrapper:hover .arrow-svg {
+    color: #4577E1 !important;
+}
+
+.get-quote-heading {
+    color: #fff;
+    font-size: 20px;
+    transition: 0.2s ease;
+}
+
+.arrow-svg {
+    margin-top: 10px;
+}
+
+
+.coustmer-satisfaction {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 22px;
+}
+
+.coustmer-satisfaction-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.percent {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Russo One", sans-serif;
+    color: #fff;
+}
+
+.coustmer-satis {
+    font-size: 22px;
+    font-family: "Russo One", sans-serif;
+    color: #fff;
+}
+
+.border-bottom {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.gradiant {
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    z-index: 1;
+    background-color: #77BEFF;
+    background: linear-gradient(170deg, #3663D8 0%, #77BEFF 100%);
+}
+
+/*/////////////////// secoond section////////////////// */
+.section-second {
+    width: 93%;
+    margin: auto;
+    margin-top: 260px;
+}
+
+.subtitle-heading-wrapper {
+    display: flex;
+    gap: 10px;
+    /* text-spacing-trim: ; */
+    letter-spacing: 0.5px;
+    align-items: center;
+}
+
+.what-we-do-wrpper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-top: 20px;
+    width: 100%;
+    gap: 40px;
+}
+
+.what-we-heading {
+    font-size: 60px;
+    font-family: "Russo One", sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    width: 60%;
+}
+
+.what-we-content {
+    width: 40%;
+    font-size: 18px;
+}
+
+.web-icons-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.feature-img-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 98px;
+}
+
+.web-feature-container {
+    padding: 50px 30px;
+    height: fit-content;
+    border: 1px solid hsl(220, 24%, 12%);
+}
+
+.feature-main-heading {
+    font-size: 24px;
+    font-family: "Russo One", sans-serif;
+    color: #fff;
+    padding-top: 110px;
+    letter-spacing: 1px;
+    padding-bottom: 35px;
+}
+
+.feature-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.our-features-element {
+    color: #D4D6D7;
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.extra-margin {
+    margin-top: 105px;
+}
+
+/* //////////////////////third section/////////////////////// */
+.third-section-container-wrapper {
+    width: 94%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.img-modal-wrapper {
+    width: 35%;
+}
+
+.section-third-contenr {
+    width: 60%;
+}
+
+.modal-img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.subtitle-heading-wrapper {
+    display: flex;
+    gap: 10px;
+    /* text-spacing-trim: ; */
+    letter-spacing: 0.5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Aboutus-main-large-heading {
+    font-size: 66px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Russo One", sans-serif;
+}
+
+.progres-info {
+    color: #fff;
+    padding-top: 35px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.progres-percent-wrapper {
+    color: #fff;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.progres-no {
+    white-space: nowrap;
+}
+
+.container-progress {
+    background-color: rgb(192, 192, 192);
+    width: 90%;
+    border-radius: 10px;
+}
+
+.skill {
+    background-color: #3663D8;
+    color: white;
+    padding: 5px;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+.php {
+    width: 60%;
+}
+
+.rating-content-wrap {
+    width: fit-content;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 17px 22px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.ratimg-content {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.ratimg-content i {
+    color: yellow;
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+.ratimg-content a {
+    color: #5994E7 !important;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-left: 3px;
+}
+
+.aboutus-features {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.progres-bar-wrapper {
+    padding-left: 30px;
+}
+
+@media (max-width:390px) {
+    .what-we-content {
+        width: 90% !important;
+    }
+}
+
+@media (max-width:560px) {
+    .Collective-child {
+        width: 90% !important;
+    }
+
+    .first-section {
+        padding-top: 40px;
+    }
+
+    .get-quote-wrapper {
+        flex-direction: column;
+    }
+
+    .what-we-heading {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .web-icons-container {
+        grid-template-columns: 1fr !important;
+    }
+
+    .progres-bar-wrapper {
+        padding-left: 5px !important;
+    }
+
+    .aboutus-features {
+        grid-template-columns: 1fr !important;
+    }
+
+    .Aboutus-main-large-heading {
+        font-size: 32px !important;
+    }
+
+    .section-third-contenr {
+        width: 90%;
+    }
+
+    /* .section-second {
+        margin-top: 860px !important;
+    } */
+}
+
+@media (max-width:768px) {
+    .section-first-content {
+        padding-left: 25px;
+    }
+
+    .collective-content {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .Collective-child {
+        order: 2;
+        width: 70% !important;
+    }
+
+    .collective-head {
+        order: 1;
+    }
+
+    .create-heading {
+        font-size: 42px !important;
+    }
+
+    .get-quote-wrapper {
+        gap: 50px;
+    }
+
+    .img-modal-wrapper {
+        width: 60%;
+    }
+
+    .Aboutus-main-large-heading {
+        font-size: 42px;
+    }
+
+
+    .aboutus-features {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 20px;
+    }
+
+}
+
+@media (max-width:1118px) {
+    .create-heading {
+        font-size: 82px;
+    }
+
+
+    .what-we-do-wrpper {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .what-we-heading {
+        width: 85%;
+    }
+
+    .what-we-content {
+        width: 75%;
+    }
+
+    .web-icons-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .third-section-container-wrapper {
+        flex-direction: column;
+    }
+}
